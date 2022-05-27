@@ -1,0 +1,126 @@
+/* Layout */
+
+#header {
+  max-width: 1000px;
+}
+
+#body {
+  max-width: 1000px;
+  margin-bottom: 200px;
+}
+
+#footer {
+  background-color: white;
+  display: table;
+  position: fixed;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-top: 2px solid;
+}
+
+/* Element styles */
+
+input[type="range"] {
+  width: 85%;
+  margin: 12px;
+  max-width: 800px;
+}
+
+input[type="radio"] {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+select {
+  font-size: 1.25em;
+  max-width: 300px;
+}
+
+button {
+  font-size: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Footer styling */
+
+.footer-row {
+  display: table-row;
+}
+
+.footer-cell-label {
+  display: table-cell;
+  width: 120px;
+  font-size: 1.5em;
+}
+
+.footer-cell-range {
+  display: table-cell;
+}
+
+#volume {
+  max-width: 200px;
+}
+
+#xfade {
+  max-width: 200px;
+}
+
+/* Tweaks */
+
+td.leftmost {
+  text-align: right;
+  width: 250px;
+  padding: 4px;
+  padding-right: 16px;
+}
+
+td.sheetsage-label {
+  font-size: 1.2em;
+}
+
+td.method-f1 {
+  padding-left: 16px;
+}
+
+th.method-f1 {
+  padding-left: 24px;
+}
+
+td:not(.leftmost) {
+  text-align: center;
+}
+
+td.bordered {
+  border-bottom: 2px solid black;
+}
+
+.sheetsage-label {
+  font-size: 1.25em;
+  width: 400px;
+}
+
+.section-header {
+  font-size: 1.25em;
+}
+
+.section-number {
+  font-weight: bold;
+}
+
+#sheetsage-score {
+  margin: 32px;
+}
